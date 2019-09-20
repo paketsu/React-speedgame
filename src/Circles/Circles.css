@@ -1,0 +1,13 @@
+.circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px;
+    background: #B82F00;
+}
+
+.circle.active {
+    box-shadow: inset 0px 0 px 15 px rgba(0, 0, 0, 1);
+    background: white;
+}

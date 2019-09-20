@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Cute+Font&display=swap');
+
+body {
+  margin: 0;
+  background: url('.//jason-leung-Xaanw0s0pMk-unsplash.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+h1 {
+  color: white;
+  font-family: 'Cute Font', cursive;
+  font-size: 4em;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
