@@ -14,6 +14,7 @@ class App extends Component {
   state = {
     score: 0,
     current: 0,
+    rounds: 0,
     showGameOver: false,
   }
   
@@ -28,7 +29,10 @@ next = () => {
   
   this.setState({
     current: nextActive,
+    rounds: this.state.rounds + 1
   })
+
+  console.log(this.state.rounds);
 
   this.pace *= 0.95;
   this.timer = setTimeout(this.next.bind(this), this.pace);
@@ -44,8 +48,10 @@ clickHandler = (circleId) => {
     return;
   }
   this.setState({
-      score: this.state.score + 1
+      score: this.state.score + 1,
+      rounds: 0
   })
+
 }
 // Nextin voi myös kirjoittaa suoraan tähän funktioon. Tämä kirjoitustyyli on toisaalta havainnollinen koodin luettavuuden kannalta
 startHandler = () => {
