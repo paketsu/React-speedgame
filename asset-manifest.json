@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/speedgame/static/css/main.1175a5cf.chunk.css",
+    "main.js": "/speedgame/static/js/main.1fbd2dc5.chunk.js",
+    "main.js.map": "/speedgame/static/js/main.1fbd2dc5.chunk.js.map",
+    "runtime~main.js": "/speedgame/static/js/runtime~main.6011d9f0.js",
+    "runtime~main.js.map": "/speedgame/static/js/runtime~main.6011d9f0.js.map",
+    "static/js/2.5ce9bfc0.chunk.js": "/speedgame/static/js/2.5ce9bfc0.chunk.js",
+    "static/js/2.5ce9bfc0.chunk.js.map": "/speedgame/static/js/2.5ce9bfc0.chunk.js.map",
+    "index.html": "/speedgame/index.html",
+    "precache-manifest.598910571bd8581160f07d9b7930deda.js": "/speedgame/precache-manifest.598910571bd8581160f07d9b7930deda.js",
+    "service-worker.js": "/speedgame/service-worker.js",
+    "static/css/main.1175a5cf.chunk.css.map": "/speedgame/static/css/main.1175a5cf.chunk.css.map",
+    "static/media/index.css": "/speedgame/static/media/jason-leung-Xaanw0s0pMk-unsplash.0f513f0e.jpg"
+  }
+}
